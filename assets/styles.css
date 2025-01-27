@@ -13,7 +13,7 @@ body, html {
   display: flex;
   justify-content: center; 
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .logo-container {
@@ -58,7 +58,7 @@ body, html {
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
-.navbar-container h3 a:hover {
+.navbar-container h3 a:hover, .navbar-container h3 a:focus {
   color: rgb(220, 121, 121);
   border-bottom: 2px solid rgb(220, 121, 121);
 }
@@ -66,6 +66,7 @@ body, html {
 .hire-button {
     position: absolute; 
     right: 20px; 
+    margin-top: -10px;
     padding: 1rem 2rem;
     font-size: 1rem;
     color: white;
@@ -110,11 +111,37 @@ p.web-title {
   left: -10%;
 }
 
-.aboutme-container {
-/*  border-top: 1px solid #44434a; */
-  margin-top: 0px; 
-  padding: 100px;
+.about-heading {
+  position: absolute;
+  top: 20%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  font-size: 5rem;
+  color: white;
   text-align: center;
+  visibility: visible;
+  transition: all 0.3s ease;
+}
+
+.about-heading-span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgb(220, 121, 121);
+}
+
+.about-paragraph {
+  position: absolute;
+  top: 55%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  max-width: 800px;
+  line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -126,7 +153,6 @@ p.web-title {
   color: #ffffff;
   text-decoration: none;
   border-radius: 5px;
-  transition: all 0.3s ease;
 }
 
 .links .btn:hover {
@@ -137,6 +163,7 @@ p.web-title {
 
 
 .footer-container {
+  margin-top: 160px;
   padding: 30px 20px;
   text-align: center;
   color: #ffffff;
