@@ -368,7 +368,7 @@ p.web-title {
 .contact-input {
   width: 100%;
   max-width: 500px;
-  padding: 18px;
+  padding: 15px;
   font-size: 0.9rem;
   color: #ffffff;
   background-color: #28272e;
@@ -400,6 +400,11 @@ p.web-title {
   transform: scale(1.03);
 }
 
+#errormessage {
+  color: rgb(197, 32, 32);
+  font-size: 1.0rem;
+  margin-top: -10px;
+}
 
 
 
