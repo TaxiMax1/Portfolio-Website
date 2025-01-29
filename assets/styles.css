@@ -142,15 +142,26 @@ p.web-title {
   margin-top: 0px;
 }
 
-.about-heading-span {
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px rgb(220, 121, 121);
+.about-paragraph {
+  color: #fff;
+  font-size: 3rem;         
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.2;
 }
 
-.about-paragraph {
-  margin-top: -50px;
-  
+@media (max-width: 600px) {
+  .about-paragraph {
+    font-size: 2rem;        
+    margin-top: 10px;
+  }
 }
+
+.about-heading-span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgb(220, 121, 121);
+}
+
 
 
 .links .btn {
