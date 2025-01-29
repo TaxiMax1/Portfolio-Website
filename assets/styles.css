@@ -129,14 +129,14 @@ p.web-title {
 }
 
 .about-heading {
-  position: absolute;
-  top: 20%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 0px;
+  margin-top: 50px;
   font-size: 5rem;
   color: white;
   text-align: center;
-  visibility: visible;
   transition: all 0.3s ease;
 }
 
