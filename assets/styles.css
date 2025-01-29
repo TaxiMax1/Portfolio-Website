@@ -456,7 +456,6 @@ p.web-title {
   cursor: pointer;
 }
 
-/* 2. Standard: Vis navigationen vandret på store skærme */
 .navbar-container {
   display: flex; 
   gap: 50px; 
@@ -486,6 +485,45 @@ p.web-title {
   .hire-button {
     position: static;
     margin: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  p.web-title {
+    font-size: 3rem;        
+    margin-bottom: 10px;     
+  }
+
+  .bar-container {
+    width: 100%;           
+    left: 0;                 
+    margin-top: 40px;       
+  }
+
+  .container {
+    margin: 20px auto;      
+    padding: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    padding: 20px; 
+  }
+
+  .logo-container {
+    position: static; 
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hire-button {
+    position: static;
     margin-top: 10px;
   }
 }
