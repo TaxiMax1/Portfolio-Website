@@ -128,16 +128,18 @@ p.web-title {
   left: -10%;
 }
 
-.about-heading {
+.about-container {
   max-width: 800px;
   margin: 40px auto;
   text-align: center;
-  padding: 0px;
+  padding: 20px;
   margin-top: 50px;
+}
+
+.about-heading {
+  color: #fff;
   font-size: 5rem;
-  color: white;
-  text-align: center;
-  transition: all 0.3s ease;
+  margin-top: 0px;
 }
 
 .about-heading-span {
@@ -146,19 +148,8 @@ p.web-title {
 }
 
 .about-paragraph {
-  position: absolute;
-  top: 60%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  font-size: 1.2rem;
-  font-weight: 300;
-  color: #ffffff;
-  text-align: center;
-  margin-top: 20px;
-  max-width: 800px;
-  line-height: 1.6;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: -50px;
+  
 }
 
 
