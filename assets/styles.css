@@ -227,10 +227,10 @@ p.web-title {
   user-select: none;
 }
 
-.experience-box:hover {
+/*.experience-box:hover {
   transform: translateY(-3px);
   background-color: rgb(220, 121, 121);
-}
+}*/
 
 .experience-box i {
   font-size: 2.5rem;
@@ -445,4 +445,47 @@ p.web-title {
   font-size: 0.9rem;
   color: #aaaaaa;
   margin-top: 20px;
+}
+
+
+
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* 2. Standard: Vis navigationen vandret på store skærme */
+.navbar-container {
+  display: flex; 
+  gap: 50px; 
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    position: static; 
+    gap: 20px;
+  }
+
+  .logo-container {
+    position: static; 
+    left: auto; 
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hire-button {
+    position: static;
+    margin: 0;
+    margin-top: 10px;
+  }
 }
