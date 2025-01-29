@@ -133,21 +133,20 @@ p.web-title {
   margin: 40px auto;
   text-align: center;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: -50px;
 }
 
 .about-heading {
   color: #fff;
   font-size: 5rem;
-  margin-top: 0px;
+  margin-bottom: 40px;
 }
 
 .about-paragraph {
   color: #fff;
-  font-size: 3rem;         
-  margin-top: 0;
-  margin-bottom: 20px;
+  font-size: 1.3rem;         
   line-height: 1.2;
+  font-weight: 300;
 }
 
 @media (max-width: 600px) {
@@ -185,7 +184,7 @@ p.web-title {
   margin: 40px auto;
   text-align: center;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .experiences-title {
@@ -262,7 +261,7 @@ p.web-title {
 .project-title {
   font-size: 4rem;
   color: #ffffff;
-  margin-top: 20px;
+  margin-top: -20px;
   font-weight: 600;
 }
 
@@ -338,7 +337,7 @@ p.web-title {
 .contact-title {
   font-size: 4rem;
   color: #ffffff;
-  margin-top: 20px;
+  margin-top: -45px;
   font-weight: 600;
 }
 
