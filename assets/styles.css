@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
+:root {
+  /* Fonts Settings */
+  --font-family: 'Poppins', sans-serif;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 600;
+}
+
 html, body {
   height: 100%;
   margin: 0;
@@ -9,7 +18,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
   background-color: rgb(17, 16, 20);
   color: #ffffff;
   scroll-behavior: smooth;  
@@ -18,10 +27,6 @@ body {
 
 ::-webkit-scrollbar {
   display: none;
-}
-
-h4 {
-  font-weight: var(--font-weight-light);
 }
 
 .header {
@@ -54,6 +59,10 @@ h4 {
 .header h2 {
   font-size: 1.5rem;
   margin: 0;
+}
+
+h4 {
+  font-weight: var(--font-weight-light);
 }
 
 .navbar-container {
