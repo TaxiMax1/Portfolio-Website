@@ -456,38 +456,26 @@ p.web-title {
   cursor: pointer;
 }
 
-.navbar-container {
-  display: flex; 
-  gap: 50px; 
-  align-items: center;
-}
-
-
 @media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    position: static; 
-    gap: 20px;
-  }
-
-  .logo-container {
-    position: static; 
-    left: auto; 
-    margin-bottom: 10px;
-    justify-content: center;
+  .menu-icon {
+    display: block; 
   }
 
   .navbar-container {
+    display: none;
     flex-direction: column;
     gap: 15px;
-  }
-
-  .hire-button {
-    position: static;
-    margin: 0;
+    background-color: rgb(17, 16, 20); 
+    padding: 20px;
+    border-radius: 8px;
     margin-top: 10px;
   }
+
+  .navbar-container.active {
+    display: flex;
+  }
 }
+
 
 @media (max-width: 600px) {
   p.web-title {
