@@ -88,11 +88,13 @@ h4 {
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
+.navbar-container h3 a.active,
 .navbar-container h3 a:hover,
 .navbar-container h3 a:focus {
   color: rgb(220, 121, 121);
   border-bottom: 2px solid rgb(220, 121, 121);
 }
+
 
 .hire-button {
   position: absolute; 

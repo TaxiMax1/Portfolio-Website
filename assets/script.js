@@ -80,3 +80,13 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     });
 });
   
+
+document.addEventListener("DOMContentLoaded", function () {
+  let navLinks = document.querySelectorAll(".navbar-container h3 a");
+
+  navLinks.forEach(link => {
+    if (link.href === window.location.href) {
+      link.classList.add("active");
+    }
+  });
+});
